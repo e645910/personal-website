@@ -17,11 +17,11 @@ body {
 }
 
 .header {
-    height:50px;
-    background:#F0F0F0;
-    border:1px solid #CCC;
-    width:960px;
-    margin:0px auto;
+    height: 60px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    width: auto;
+    margin: 0px auto;
 }
 
 h2{
@@ -46,7 +46,6 @@ ul li a {
 	text-decoration: none;
 	padding: .1em .5em;
 	font-weight: 600;
-/*	color: #FFF;*/
 }
 
 a:hover ,a:active {
@@ -64,20 +63,26 @@ input, textarea {
 
 /*------- aboutMe page ------------------*/
 .content-aboutMe {
-    width: 960px;
-    background: #F0F0F0;
-    border: 1px solid #CCC;
-    height: 2000px;
-    margin: auto;
+    width: auto;
+    height: auto;
     background-image: url("./img/backGround.jpg");
-    background-size: cover;
-    z-index: 0;
+    margin:0px auto;
+}
+.myImage {
+	position: relative;
+	top: 30%;
+	left: 1%;
 }
 
-.myAboutinfo {
-	color:Red;
-	float: right;
-    margin-left: 500px;
-    z-index: 2;
+.myAboutMeInfo {
+	position: absolute;
+    top: 10%;
+    left: 65%;
+    color: wheat;
+    width: 30%;
 }
 
+.myAboutMeInfo span {
+	font-size: 2em;
+}
+    
