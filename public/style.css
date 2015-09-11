@@ -8,18 +8,18 @@ body {
   background-image: url("./img/images1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 95%; 
+  font-size: 1vw;
   font-family: 'Exo', sans-serif;
   color: #FFFFFF;
 }
 
 /*--------- mobile settings -------------*/
 img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 input, textarea {
-  max-width:100%
+  max-width:100%;
 }
 
 /*--------- main index.html -------------*/
@@ -29,8 +29,6 @@ input, textarea {
 }
 
 .header {
-    height: 60px;
-    width: auto;
     background: #F0F0F0;
     color: #000000;
     margin: 0px auto;
@@ -39,7 +37,7 @@ input, textarea {
 h2 {
   display: inline;
   font-family: fantasy;
-  font-size: 2.5em;
+  font-size: 2.5vw;
 }
 
 .header ul { 
@@ -57,7 +55,7 @@ h2 {
   text-decoration: none; /*remove the text underline*/
   padding: .5em .5em; /*make each list item into a box*/
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   color: #000000;
 }
 
@@ -105,13 +103,13 @@ background-color: #036;
 
 .element span {
   margin-left: 25%;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 .element img {
   float: left;
   width: 45%;
-  height: 50%;
+  height: 45%;
   shape-outside: url(./img/me.jpg);
   shape-margin: 15px;
 }
