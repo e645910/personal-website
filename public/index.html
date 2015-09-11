@@ -8,22 +8,31 @@
 	</head>
 <body>
 
-	<div class="header-cont">
+	<div class="header-container">
 		<div class="header">
 			<h2>Rick Wightman</h2>
 			<ul>
-		  		<li ng-class="{ active: isCurrentPath('/') }"><a href="#/">About</a></li>
-		  		<li ng-class="{ active: isCurrentPath('/bio') }"><a href="#/bio">Bio</a></li>
-				<li ng-class="{ active: isCurrentPath('/blog') }"><a href="#/blog">Blog</a></li>
-				<li ng-class="{ active: isCurrentPath('/contact') }"><a href="#/contact">Contact</a></li>
-				<li ng-class="{ active: isCurrentPath('/hireMe') }"><a href="#/hireMe">Hire Me</a></li>
-				<li ng-class="{ active: isCurrentPath('/portfolio') }"><a href="#/portfolio">Portfolio</a></li>
-				<li ng-class="{ active: isCurrentPath('/resume') }"><a href="#/resume">Resume</a></li>
+		  		<li><a href="#/">About</a></li>
+		  		<li><a href="#/bio">Bio</a></li>
+				<li><a href="#/blog">Blog</a></li>
+				<li><a href="#/contact">Contact</a></li>
+				<li><a href="#/hireMe">Hire Me</a></li>
+				<li><a href="#/portfolio">Portfolio</a></li>
+				<li><a href="#/resume">Resume</a></li>
 			</ul>
 		</div>	
 	</div>
 	
 	<div data-ng-view></div>
+
+	<div class="footer">
+		<ul>
+			<li class="faceBook"><a href="http://www.facebook.com/rick.wightman.7">Facebook</a></li>
+			<li class="LinkedIn"><a href="http://www.facebook.com/rick.wightman.7">LinkedIn</a></li>
+			<li class="twitter"><a href="http://www.facebook.com/rick.wightman.7">Twitter</a></li>
+		</ul>
+	</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular-route.js"></script>
