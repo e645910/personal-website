@@ -2,18 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
 body {
-  margin-left: 15%; 
-  padding: 0; 
-  position: fixed;
-  background-image: url("./img/images1.jpg");
+  background-image: url("./img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 1vw;
   font-family: 'Exo', sans-serif;
   color: #FFFFFF;
 }
 
-/*--------- mobile settings -------------*/
+/*--- imgage settings to fit smaller screen ---*/
 img {
   max-width: 100%;
 }
@@ -22,13 +18,18 @@ input, textarea {
   max-width:100%;
 }
 
-/*--------- main index.html -------------*/
-.header-container {
+/*--------- header setup -------------*/
+.headerContainer {
   width: 100%;
+  position: fixed;
   top: 0px;
+  font-size: 15px;
+  font-size: 1vw;
 }
 
 .header {
+    height: 20%;
+    width: 70%;
     background: #F0F0F0;
     color: #000000;
     margin: 0px auto;
@@ -37,6 +38,7 @@ input, textarea {
 h2 {
   display: inline;
   font-family: fantasy;
+  font-size: 40px;
   font-size: 2.5vw;
 }
 
@@ -55,6 +57,7 @@ h2 {
   text-decoration: none; /*remove the text underline*/
   padding: .5em .5em; /*make each list item into a box*/
   font-weight: bold;
+  font-size: 18px;
   font-size: 1.2vw;
   color: #000000;
 }
@@ -64,35 +67,41 @@ h2 {
   background-color: #000000;
 }
 
-
 /*--------- social media links ----------*/
 .footer {
   position: fixed;
-  margin: 0;
-  bottom: 10px;
+  bottom: 10%;
+  margin-left: 15%;
 }
 
 .footer ul {
   list-style-type: none; 
 }
 
-.footer ul li { display: inline; }
+.footer ul li { 
+  display: inline;
+}
 
-.footer ul li a
-{
+.footer ul li a {
 text-decoration: none;
 padding: .2em 1em;
-color: #fff;
+color: #FFFFFF;
 background-color: #036;
 }
 
-
+.footer a:hover {
+  color: #FFFF00; 
+  background-color: #000000;
+}
 
 /*--------- aboutMe page ----------------*/
 .aboutMe-container {
     background-size: auto;
     background-attachment: fixed; 
     overflow: hidden;
+}
+.element {
+  margin: 10%;
 }
 
 .element P {
@@ -103,13 +112,14 @@ background-color: #036;
 
 .element span {
   margin-left: 25%;
+  font-size: 25px;
   font-size: 2vw;
 }
 
 .element img {
   float: left;
-  width: 45%;
-  height: 45%;
+  width: 35%;
+  height: 35%;
   shape-outside: url(./img/me.jpg);
   shape-margin: 15px;
 }
@@ -125,7 +135,6 @@ background-color: #036;
 }
 
 /*--------- Bio page --------------------*/
-
 
 
 
