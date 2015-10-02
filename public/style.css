@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
 body {
-  position: fixed;
+  /*position: fixed;*/
   background-image: url("./img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,8 +71,8 @@ h2 {
 /*--------- social media links ----------*/
 .footer {
   position: relative;
-  bottom: 10%;
-  margin: 0px 0px 5% 13%;
+  bottom: 1%;
+  margin: 0px 0px 5% 10%;
   width:100%;
 }
 
@@ -89,7 +89,7 @@ h2 {
   text-decoration: none;
   padding: .2em 1em;  
   color: #FFFFFF;
-  margin: 1% 0;
+  margin: 1%;
 }
 
 li.facebook {
@@ -122,11 +122,13 @@ li.gitHub {
 
 
 /*--------- aboutMe page ----------------*/
+
 .aboutMeContainer {
     background-size: auto;
     background-attachment: fixed; 
-    overflow: hidden;
+    width: 95%;
 }
+
 .element {
   margin: 0px 0px 0px 13%;
 }
@@ -162,8 +164,3 @@ li.gitHub {
 }
 
 /*--------- Bio page --------------------*/
-
-
-
-
-
