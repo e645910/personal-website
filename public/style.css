@@ -72,7 +72,7 @@ h2 {
 .footer {
   position: relative;
   bottom: 1%;
-  margin: 0px 0px 5% 10%;
+  margin: 0 0 5% 10%;
   width:100%;
 }
 
@@ -130,7 +130,7 @@ li.gitHub {
 }
 
 .element {
-  margin: 0px 0px 0px 13%;
+  margin-left: 13%;
 }
 
 .element P {
@@ -164,3 +164,29 @@ li.gitHub {
 }
 
 /*--------- Bio page --------------------*/
+
+.bioContainer {
+    background-size: auto;
+    background-attachment: fixed; 
+    width: 90%;
+}
+
+.bioElement {
+  margin-left: 15%;
+}
+
+.bioElement P {
+  width: 90%;
+  padding: 10% 0 0 10%;
+  color: #FFFFFF;
+}
+
+.bioElement img {
+  vertical-align: middle;
+  width: 10%;
+  height: 10%;
+}
+
+
+
+
