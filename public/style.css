@@ -168,25 +168,49 @@ li.gitHub {
 .bioContainer {
     background-size: auto;
     background-attachment: fixed; 
+    border: 4px solid red;
     width: 90%;
-}
-
-.bioElement {
-  margin-left: 15%;
-}
-
-.bioElement P {
-  width: 90%;
-  padding: 5% 0 0 10%;
-  color: #FFFFFF;
+    margin-left: 15%;
 }
 
 .bioElement img {
-  vertical-align: middle;
+  color: #808000;
   width: 10%;
   height: 10%;
+  margin-right: 20%;
 }
 
+.usaf {
+  border: 4px solid red;
+  margin-top: 3%;
+}
 
+.usaf img {
+  vertical-align: middle;
+  padding: 1%;
+  color: #808000;
+}
 
+.spartan {
+  border: 4px solid red;
+  margin-bottom: 1%;
+}
 
+.spartan img {
+  float: right;
+  padding-top: 1%; 
+}
+
+.honeywell {
+    border: 4px solid red;
+    padding: 1%;
+}
+
+.honeywell img {
+    float: right;
+}
+
+.jm {
+  border: 4px solid red;
+  padding: 1%
+}
